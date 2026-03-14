@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yeshua Palacio | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="#home">YP</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">My Projects</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About Me</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="section home-section">
+        <div class="home-content">
+            <div class="hero-text">
+                <h1 class="hero-title">Hi, I'm Yeshua Quintas</h1>
+                <p class="hero-subtitle">Full Stack Developer | Creative Problem Solver</p>
+                <p class="hero-description">
+                    Welcome to my portfolio! I'm passionate about building beautiful and functional web applications.
+                    Explore my projects, learn about me, and let's connect!
+                </p>
+                <button class="cta-button" onclick="scrollTo('projects')">View My Work</button>
+            </div>
+            <div class="hero-image">
+                <div class="avatar-placeholder">
+                    <img src="my_photo.jpg" alt="Yeshua Palacio" class="profile-photo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects-section">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <p class="section-subtitle">Here are some projects I've worked on</p>
+            
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img onclick="openLightbox(this)" style="cursor:zoom-in" src="project1.jpg">
+                    </div>
+                    <div class="project-info">
+                        <h3>LAFVIN 2WD SMART ROBOT CAR</h3>
+                        <p>The LAFVIN 2WD Smart Robot Car Kit is a beginner-friendly robotics kit that lets users build and program a two-wheel robot car using an Arduino. It includes motors, wheels, sensors, and a remote control, making it ideal for learning coding, electronics, and basic robotics through hands-on projects.</p>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img onclick="openLightbox(this)" style="cursor:zoom-in" src="project2.jpg">
+                    </div>
+                    <div class="project-info">
+                        <h3>DIORAMA</h3>
+                        <p>This diorama is a miniature model of an urban area made from cardboard, showing buildings and planned streets. It is used to visualize a simple city layout and demonstrate how roads and structures are organized in a small-scale environment.</p>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img onclick="openLightbox(this)" style="cursor:zoom-in" src="project3.jpg">
+                    </div>
+                    <div class="project-info">
+                        <h3>CATALOG</h3>
+                        <p>Ichigo Kurosaki from Bleach — featuring his Shinigami and Hollow forms side by side, showcasing his dual nature as a Soul Reaper and Hollow-powered warrior.</p>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img onclick="openLightbox(this)" style="cursor:zoom-in" src="project4.jpg">
+                    </div>
+                    <div class="project-info">
+                        <h3>POSTER</h3>
+                        <p>JUST SHORT DESCRIPTION ABOUT THIS POSTER1:15 PMA hand-drawn STEM-themed poster sketch featuring science and technology icons — including a DNA helix, atom, robot, WiFi symbol, sigma sign, planet, and chemical elements (N, Ag) — still in progress with pen and pencil nearby.</p>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img onclick="openLightbox(this)" style="cursor:zoom-in" src="project5.png">
+                    </div>
+                    <div class="project-info">
+                        <h3>PITCHING LOGO</h3>
+                        <p>A sleek RAi logo featuring a circular cycle of blue, green, and silver arrows on a black background — conveying innovation, sustainability, and continuous growth.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="section about-section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Who Am I?</h3>
+                    <p>
+                        I'm a passionate developer from the Philippines with a keen interest in creating beautiful, 
+                        user-friendly web applications. I started my journey into web development with a curiosity about 
+                        how websites work, and it has evolved into a career passion.
+                    </p>
+                    
+                    <h3>My Skills</h3>
+                    <div class="skills-container">
+                        <div class="skill-item">
+                            <h4>Frontend</h4>
+                            <p>HTML5, CSS3, JavaScript, Responsive Design</p>
+                        </div>
+                        <div class="skill-item">
+                            <h4>Backend</h4>
+                            <p>Server-side logic, Database design, RESTful APIs</p>
+                        </div>
+                        <div class="skill-item">
+                            <h4>Tools</h4>
+                            <p>Git, GitHub, VS Code, Developer Tools</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-text">
+                    <h3>Interests & Hobbies</h3>
+                    <ul class="interests-list">
+                        <li>🎮 Gaming and interactive experiences</li>
+                        <li>📚 Continuous learning and exploring new technologies</li>
+                        <li>💡 Problem-solving and debugging</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">Feel free to reach out to me through any of these channels</p>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon email">📧</div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p><a href="/cdn-cgi/l/email-protection#374e52445f42561947565b56545e5877524f565a475b521954585a"><span class="__cf_email__" data-cfemail="a1d8c4d2c9d4c08fd1c0cdc0c2c8cee1c4d9c0ccd1cdc48fc2cecc">[email&#160;protected]</span></a></p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon phone">📱</div>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <p><a href="tel:+639123456789">+63 912 345 6789</a></p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon location">📍</div>
+                        <div class="contact-details">
+                            <h4>Location</h4>
+                            <p>Philippines</p>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <h3>Follow Me</h3>
+                        <div class="social-grid">
+                            <a href="https://facebook.com" class="social-link facebook" target="_blank">
+                                <span>Facebook</span>
+                            </a>
+                            <a href="https://twitter.com" class="social-link twitter" target="_blank">
+                                <span>Twitter</span>
+                            </a>
+                            <a href="https://instagram.com" class="social-link instagram" target="_blank">
+                                <span>Instagram</span>
+                            </a>
+                            <a href="https://discord.com" class="social-link discord" target="_blank">
+                                <span>Discord</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <h3>Send Me a Message</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                    <div id="formMessage" class="form-message"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Yeshua Palacio. All rights reserved.</p>
+            <p>Built with ❤️ using vanilla HTML, CSS, and JavaScript</p>
+        </div>
+    </footer>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+        <div class="lightbox-overlay" onclick="closeLightbox()"></div>
+        <div class="lightbox-content">
+            <button class="lightbox-close" onclick="closeLightbox()">&times;</button>
+            <img id="lightbox-img" src="" alt="">
+            <p id="lightbox-caption"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
